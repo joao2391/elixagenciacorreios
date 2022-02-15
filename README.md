@@ -1,6 +1,14 @@
+[![Elixbacen version](https://img.shields.io/hexpm/v/elixbacen.svg)](https://hex.pm/packages/elixagenciacorreios)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/elixagenciacorreios/)
+[![Hex.pm](https://img.shields.io/hexpm/dt/elixagenciacorreios.svg)](https://hex.pm/packages/)
 # Elixagenciacorreios
 
-**TODO: Add description**
+Elixagenciacorreios is a package that helps you to get brazilian's mail agency.
+
+## Notes
+Version 0.1.0:
+
+- Added features to get brazilian's mail agency.
 
 ## Installation
 
@@ -15,7 +23,15 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixagenciacorreios](https://hexdocs.pm/elixagenciacorreios).
+## Features
+```elixir
+get_agencias("UF", "municipio", "bairro")
+```
+
+## Documentation
+
+Documentation can be found at [https://hexdocs.pm/elixagenciacorreios](https://hexdocs.pm/elixagenciacorreios).
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
