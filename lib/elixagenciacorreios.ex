@@ -27,7 +27,6 @@ defmodule Elixagenciacorreios do
         lista_nomes = get_nomes_agencia(lista)
 
         tamanho_lista = length(lista_enderecos)
-        IO.puts(tamanho_lista)
 
         for x <- 0..tamanho_lista - 1 do
           endereco = lista_enderecos |> Enum.at(x)
